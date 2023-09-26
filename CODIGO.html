@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Eventos</title>
+    <style>
+        /* Estilos CSS para la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+
+        h1 {
+            color: #333;
+        }
+
+        /* Estilos CSS para la lista de eventos */
+        .event-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .event {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .event h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+
+        .event p {
+            color: #666;
+        }
+ 
+
+        /* Estilos CSS para los botones de reserva */
+        .reserve-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+ 
+        .reserve-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal de Eventos</h1>
+    </header>
+    <div class="container">
+        <h2>Próximos Eventos</h2>
+        <ul class="event-list">
+            <li class="event">
+                <h2>Evento 1</h2>
+                <p>Fecha: 01 de Octubre, 2023</p>
+                <p>Categoría: Música</p>
+                <button class="reserve-button">Reservar Individual</button>
+                <button class="reserve-button">Reservar en Grupo</button>
+            </li>
+            <li class="event">
+                <h2>Evento 2</h2>
+                <p>Fecha: 15 de Octubre, 2023</p>
+                <p>Categoría: Deportes</p>
+                <button class="reserve-button">Reservar Individual</button>
+                <button class="reserve-button">Reservar en Grupo</button>
+            </li>
+            <!-- Agrega más eventos aquí -->
+        </ul>
+    </div>
+</body>
+</html>
